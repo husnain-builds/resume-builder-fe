@@ -1,7 +1,12 @@
+// React
+import { useEffect } from 'react';
+
+// Hooks
+import { useRoutes, useNavigate } from 'react-router-dom';
+
+// Components
 import Signup from './components/Auth/SignUp';
 import Login from './components/Auth/Login';
-import { useRoutes, useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
 import Welcome from './components/Welcome';
 import PrivateRoute from './routes/PrivateRoute';
 import UserProfile from './components/Profile';

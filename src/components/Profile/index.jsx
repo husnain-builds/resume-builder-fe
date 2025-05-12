@@ -1,4 +1,10 @@
+// React
 import React, {useEffect, useState} from "react"
+
+// Axios
+import axios from "axios"
+
+// MUI
 import {
   Avatar,
   Box,
@@ -10,7 +16,6 @@ import {
   Divider,
   Fab,
   Grid,
-  IconButton,
   Paper,
   Tab,
   Tabs,
@@ -18,6 +23,8 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material"
+
+// Icons
 import {
   Edit as EditIcon,
   Email as EmailIcon,
@@ -30,7 +37,6 @@ import {
   LinkedIn as LinkedInIcon,
   Instagram as InstagramIcon,
 } from "@mui/icons-material"
-import axios from "axios"
 
 const TabPanel = (props) => {
   const { children, value, index, ...other } = props

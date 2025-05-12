@@ -1,8 +1,14 @@
-import React, { useState, useEffect } from 'react'
-import { Button, Container, Typography } from '@mui/material'
-import axios from 'axios';
-import { MESSAGES } from '../../utils/messages';
+// React
+import React from 'react'
+
+// Hooks
 import { useNavigate } from 'react-router-dom';
+
+// Utils
+import { MESSAGES } from '../../utils/messages';
+
+// MUI 
+import { Button, Container, Typography } from '@mui/material'
 
 const Welcome = () => {
   const navigate = useNavigate();

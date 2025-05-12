@@ -1,10 +1,11 @@
+// React
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+
+// Hooks
 import useAuthMonitor from '../hooks/useAuthMonitor';
 
 const PrivateRoute = ({ children }) => {
-    const navigate = useNavigate();
-    useAuthMonitor();
+  useAuthMonitor();
   return (
     <>
         {children}
